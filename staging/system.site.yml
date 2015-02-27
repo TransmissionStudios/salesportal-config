@@ -1,0 +1,11 @@
+uuid: b5a3269f-b8a5-4d8b-9a4d-77a3714300fd
+name: 'Capgemini Sales Portal'
+mail: richard@transmissionstudios.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
