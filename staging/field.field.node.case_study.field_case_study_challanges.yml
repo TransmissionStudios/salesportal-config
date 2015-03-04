@@ -1,0 +1,23 @@
+uuid: cd846394-26dd-4afc-8426-3881832caecd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_study_challanges
+    - node.type.case_study
+  module:
+    - taxonomy
+id: node.case_study.field_case_study_challanges
+field_name: field_case_study_challanges
+entity_type: node
+bundle: case_study
+label: Challenges
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+third_party_settings: {  }
+field_type: taxonomy_term_reference

@@ -1,0 +1,41 @@
+uuid: 46f021e3-e4ca-47d9-a917-23efc6e1313d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.solution.body
+    - field.field.node.solution.field_solution_case_studies
+    - field.field.node.solution.field_solution_technology
+    - node.type.solution
+  module:
+    - text
+    - user
+id: node.solution.default
+targetEntityType: node
+bundle: solution
+mode: default
+content:
+  links:
+    weight: 100
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_solution_technology:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_solution_case_studies:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+hidden: {  }
+third_party_settings: {  }

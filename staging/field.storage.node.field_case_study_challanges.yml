@@ -1,0 +1,25 @@
+uuid: 5df9d800-d218-441a-a100-ba30e265fd13
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_case_study_challanges
+field_name: field_case_study_challanges
+entity_type: node
+type: taxonomy_term_reference
+settings:
+  allowed_values:
+    -
+      vocabulary: challenge
+      parent: 0
+  target_type: taxonomy_term
+  options_list_callback: null
+  target_bundle: null
+module: taxonomy
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

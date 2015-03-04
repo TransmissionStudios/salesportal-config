@@ -1,0 +1,10 @@
+uuid: 87836610-8688-4a2f-a700-cdec4ac3b34d
+langcode: en
+status: true
+dependencies: {  }
+name: Challenge
+vid: challenge
+description: ''
+hierarchy: 0
+weight: 0
+third_party_settings: {  }

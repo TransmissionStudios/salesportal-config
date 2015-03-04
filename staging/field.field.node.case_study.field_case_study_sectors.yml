@@ -1,0 +1,23 @@
+uuid: 3eb848db-bf65-43f9-825e-94e730b22ede
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_study_sectors
+    - node.type.case_study
+  module:
+    - taxonomy
+id: node.case_study.field_case_study_sectors
+field_name: field_case_study_sectors
+entity_type: node
+bundle: case_study
+label: Sectors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+third_party_settings: {  }
+field_type: taxonomy_term_reference

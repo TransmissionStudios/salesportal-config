@@ -1,0 +1,29 @@
+uuid: 180391a1-04be-4840-ac09-092e9c7be0ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_solution_case_studies
+    - node.type.solution
+  module:
+    - entity_reference
+id: node.solution.field_solution_case_studies
+field_name: field_solution_case_studies
+entity_type: node
+bundle: solution
+label: 'Case studies'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings:
+    target_bundles:
+      case_study: case_study
+    sort:
+      field: title
+      direction: ASC
+third_party_settings: {  }
+field_type: entity_reference

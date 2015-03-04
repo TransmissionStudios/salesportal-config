@@ -1,0 +1,20 @@
+uuid: e6c435be-1d07-4546-b403-3d3a5f7a9c98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_telephone
+    - node.type.contact
+id: node.contact.field_contact_telephone
+field_name: field_contact_telephone
+entity_type: node
+bundle: contact
+label: Telephone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+third_party_settings: {  }
+field_type: string

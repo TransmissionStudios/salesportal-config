@@ -1,0 +1,19 @@
+uuid: d1562a40-eaeb-4abf-a61d-29e1df12ef4f
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference
+    - node
+id: node.field_case_study_technologies
+field_name: field_case_study_technologies
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: entity_reference
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

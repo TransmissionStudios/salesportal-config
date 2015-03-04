@@ -1,0 +1,34 @@
+uuid: f79a7d11-5c27-4968-9b54-8458b933e687
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.case_study.body
+    - field.field.node.case_study.field_case_study_challanges
+    - field.field.node.case_study.field_case_study_contact
+    - field.field.node.case_study.field_case_study_sectors
+    - node.type.case_study
+  module:
+    - text
+    - user
+id: node.case_study.teaser
+targetEntityType: node
+bundle: case_study
+mode: teaser
+content:
+  links:
+    weight: 100
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+hidden:
+  field_case_study_challanges: true
+  field_case_study_contact: true
+  field_case_study_technologies: true
+  field_case_study_sectors: true
+third_party_settings: {  }

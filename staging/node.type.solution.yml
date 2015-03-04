@@ -1,0 +1,17 @@
+uuid: eaa97143-b6dd-4b67-8906-6aefb527abe6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+name: Solution
+type: solution
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: 'main:'

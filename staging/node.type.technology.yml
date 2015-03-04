@@ -1,0 +1,17 @@
+uuid: 05568deb-2807-44eb-8100-e2d5de0e9636
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+name: Technology
+type: technology
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: 'main:'

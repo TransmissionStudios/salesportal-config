@@ -1,0 +1,10 @@
+uuid: 0d03b893-023b-400f-9905-5b8c3ce96b1f
+langcode: en
+status: true
+dependencies: {  }
+name: Sector
+vid: sector
+description: ''
+hierarchy: 0
+weight: 0
+third_party_settings: {  }

@@ -1,0 +1,24 @@
+uuid: 43f6078d-56c0-48c7-a908-8ba872f25bb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_study_contact
+    - node.type.case_study
+  module:
+    - entity_reference
+id: node.case_study.field_case_study_contact
+field_name: field_case_study_contact
+entity_type: node
+bundle: case_study
+label: Contact
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings: {  }
+  handler: default
+third_party_settings: {  }
+field_type: entity_reference

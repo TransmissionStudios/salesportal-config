@@ -1,0 +1,21 @@
+uuid: 5ff928a3-e451-4488-9b03-3fc76d070724
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.contact
+id: node.contact.title
+field_name: title
+entity_type: node
+bundle: contact
+label: Name
+description: 'The title of this node, always treated as non-markup plain text.'
+required: true
+translatable: true
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+third_party_settings: {  }
+field_type: string

@@ -1,0 +1,33 @@
+uuid: 97d93d33-ee99-41d5-9f46-7063cb69bd1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.technology.body
+    - field.field.node.technology.field_technology_case_studies
+    - node.type.technology
+  module:
+    - text
+    - user
+id: node.technology.default
+targetEntityType: node
+bundle: technology
+mode: default
+content:
+  links:
+    weight: 100
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_technology_case_studies:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+hidden: {  }
+third_party_settings: {  }

@@ -1,0 +1,22 @@
+uuid: f5f344dc-1089-4165-9a26-38d5b7ea757f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_job_title
+    - node.type.contact
+id: node.contact.field_contact_job_title
+field_name: field_contact_job_title
+entity_type: node
+bundle: contact
+label: 'Job title'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+third_party_settings: {  }
+field_type: string

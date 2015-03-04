@@ -1,0 +1,23 @@
+uuid: b01ca0f1-16a0-419e-8400-ebd2664660b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.contact
+  module:
+    - text
+id: node.contact.body
+field_name: body
+entity_type: node
+bundle: contact
+label: Profile
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+third_party_settings: {  }
+field_type: text_with_summary
