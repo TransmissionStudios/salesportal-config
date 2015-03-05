@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.case_study.field_case_study_challanges
     - field.field.node.case_study.field_case_study_contact
     - field.field.node.case_study.field_case_study_sectors
+    - field.field.node.case_study.field_case_study_technologies
     - node.type.case_study
   module:
     - text

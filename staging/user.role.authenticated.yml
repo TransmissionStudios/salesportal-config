@@ -8,3 +8,4 @@ weight: 1
 permissions:
   - 'use text format plain_text'
   - 'access content'
+  - 'use text format basic_formatting'
