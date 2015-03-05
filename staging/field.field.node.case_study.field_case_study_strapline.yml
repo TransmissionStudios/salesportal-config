@@ -1,0 +1,22 @@
+uuid: 6359f7af-001d-4a9f-8900-daad02cbb6b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_case_study_strapline
+    - node.type.case_study
+id: node.case_study.field_case_study_strapline
+field_name: field_case_study_strapline
+entity_type: node
+bundle: case_study
+label: Strapline
+description: 'Text to appear over hero banner image.'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+third_party_settings: {  }
+field_type: string

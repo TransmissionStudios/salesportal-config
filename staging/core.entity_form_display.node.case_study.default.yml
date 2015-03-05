@@ -6,11 +6,14 @@ dependencies:
     - field.field.node.case_study.body
     - field.field.node.case_study.field_case_study_challanges
     - field.field.node.case_study.field_case_study_contact
+    - field.field.node.case_study.field_case_study_hero_image
     - field.field.node.case_study.field_case_study_sectors
+    - field.field.node.case_study.field_case_study_strapline
     - field.field.node.case_study.field_case_study_technologies
     - node.type.case_study
   module:
     - entity_reference
+    - image
     - path
     - text
 id: node.case_study.default
@@ -92,5 +95,19 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+  field_case_study_hero_image:
+    weight: 37
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_case_study_strapline:
+    weight: 38
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
 hidden: {  }
 third_party_settings: {  }

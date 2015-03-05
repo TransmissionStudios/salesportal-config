@@ -6,10 +6,13 @@ dependencies:
     - field.field.node.case_study.body
     - field.field.node.case_study.field_case_study_challanges
     - field.field.node.case_study.field_case_study_contact
+    - field.field.node.case_study.field_case_study_hero_image
     - field.field.node.case_study.field_case_study_sectors
+    - field.field.node.case_study.field_case_study_strapline
     - field.field.node.case_study.field_case_study_technologies
     - node.type.case_study
   module:
+    - image
     - taxonomy
     - text
     - user
@@ -54,5 +57,20 @@ content:
       link: true
     third_party_settings: {  }
     label: above
+  field_case_study_hero_image:
+    weight: 107
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_case_study_strapline:
+    weight: 108
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
 hidden: {  }
 third_party_settings: {  }
