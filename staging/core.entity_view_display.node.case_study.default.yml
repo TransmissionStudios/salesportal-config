@@ -58,19 +58,19 @@ content:
     third_party_settings: {  }
     label: above
   field_case_study_hero_image:
+    type: image
     weight: 107
-    label: above
     settings:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
-    type: image
+    label: hidden
   field_case_study_strapline:
+    type: string
     weight: 108
-    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    label: hidden
 hidden: {  }
 third_party_settings: {  }

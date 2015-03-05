@@ -7,7 +7,9 @@ dependencies:
     - field.field.node.case_study.body
     - field.field.node.case_study.field_case_study_challanges
     - field.field.node.case_study.field_case_study_contact
+    - field.field.node.case_study.field_case_study_hero_image
     - field.field.node.case_study.field_case_study_sectors
+    - field.field.node.case_study.field_case_study_strapline
     - field.field.node.case_study.field_case_study_technologies
     - node.type.case_study
   module:
@@ -32,4 +34,6 @@ hidden:
   field_case_study_contact: true
   field_case_study_technologies: true
   field_case_study_sectors: true
+  field_case_study_hero_image: true
+  field_case_study_strapline: true
 third_party_settings: {  }
