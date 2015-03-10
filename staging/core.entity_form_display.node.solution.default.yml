@@ -6,9 +6,11 @@ dependencies:
     - field.field.node.solution.body
     - field.field.node.solution.field_solution_case_studies
     - field.field.node.solution.field_solution_technology
+    - field.field.node.solution.field_test_image
     - node.type.solution
   module:
     - entity_reference
+    - image
     - path
     - text
 id: node.solution.default
@@ -80,5 +82,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+  field_test_image:
+    weight: 34
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
 hidden: {  }
 third_party_settings: {  }

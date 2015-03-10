@@ -13,6 +13,7 @@ dependencies:
     - field.field.node.case_study.field_case_study_technologies
     - node.type.case_study
   module:
+    - image
     - text
     - user
 id: node.case_study.teaser
@@ -20,20 +21,29 @@ targetEntityType: node
 bundle: case_study
 mode: teaser
 content:
+  field_case_study_hero_image:
+    type: image
+    weight: 0
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    label: hidden
   links:
     weight: 100
+    settings: {  }
+    third_party_settings: {  }
   body:
-    label: hidden
     type: text_summary_or_trimmed
     weight: 101
     settings:
-      trim_length: 600
+      trim_length: 100
     third_party_settings: {  }
+    label: hidden
 hidden:
   field_case_study_challanges: true
   field_case_study_contact: true
   field_case_study_technologies: true
   field_case_study_sectors: true
-  field_case_study_hero_image: true
   field_case_study_strapline: true
 third_party_settings: {  }

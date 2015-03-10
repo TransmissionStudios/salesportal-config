@@ -6,8 +6,10 @@ dependencies:
     - field.field.node.solution.body
     - field.field.node.solution.field_solution_case_studies
     - field.field.node.solution.field_solution_technology
+    - field.field.node.solution.field_test_image
     - node.type.solution
   module:
+    - image
     - text
     - user
 id: node.solution.default
@@ -17,25 +19,35 @@ mode: default
 content:
   links:
     weight: 100
+    settings: {  }
+    third_party_settings: {  }
   body:
-    label: hidden
     type: text_default
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    label: hidden
   field_solution_technology:
+    type: entity_reference_label
     weight: 102
-    label: above
     settings:
       link: true
     third_party_settings: {  }
-    type: entity_reference_label
+    label: above
   field_solution_case_studies:
+    type: entity_reference_label
     weight: 103
-    label: above
     settings:
       link: true
     third_party_settings: {  }
-    type: entity_reference_label
+    label: above
+  field_test_image:
+    type: image
+    weight: 104
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    label: above
 hidden: {  }
 third_party_settings: {  }

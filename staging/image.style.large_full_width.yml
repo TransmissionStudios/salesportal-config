@@ -1,0 +1,15 @@
+uuid: a277760c-1da1-48ed-ac05-5f343e706840
+langcode: en
+status: true
+dependencies: {  }
+name: large_full_width
+label: 'Large full width'
+effects:
+  2d9f00d6-db75-4049-840f-1539585a80d5:
+    uuid: 2d9f00d6-db75-4049-840f-1539585a80d5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1280
+      height: 470
+third_party_settings: {  }

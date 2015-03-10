@@ -5,6 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.solution.body
+    - field.field.node.solution.field_solution_case_studies
+    - field.field.node.solution.field_solution_technology
+    - field.field.node.solution.field_test_image
     - node.type.solution
   module:
     - text
@@ -23,5 +26,8 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_solution_case_studies: true
+  field_solution_technology: true
+  field_test_image: true
 third_party_settings: {  }

@@ -1,0 +1,22 @@
+id: hero_image
+uuid: 069c029a-c4f5-4e21-8500-c457aeb0f59a
+label: 'Case study hero image'
+mappings:
+  -
+    breakpoint_id: sales_portal.small
+    multiplier: 1x
+    image_style: small_full_width
+  -
+    breakpoint_id: sales_portal.medium
+    multiplier: 1x
+    image_style: small_full_width
+  -
+    breakpoint_id: sales_portal.large
+    multiplier: 1x
+    image_style: large_full_width
+breakpointGroup: sales_portal
+status: true
+langcode: en
+dependencies:
+  theme:
+    - sales_portal

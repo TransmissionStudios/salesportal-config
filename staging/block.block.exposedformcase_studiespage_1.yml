@@ -1,0 +1,26 @@
+uuid: c357cd9c-90fc-4fa8-8500-b9a7fca3a3d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.case_studies
+  module:
+    - views
+  theme:
+    - sales_portal
+id: exposedformcase_studiespage_1
+theme: sales_portal
+region: navigation
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:case_studies-page_1'
+settings:
+  id: 'views_exposed_filter_block:case_studies-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  cache:
+    max_age: 0
+    contexts: {  }
+  views_label: ''
+visibility: {  }
