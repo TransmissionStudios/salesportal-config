@@ -1,0 +1,46 @@
+uuid: d2cdf157-92ea-4967-a400-a346870dc8d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.sector.field_sector_contact
+    - taxonomy.vocabulary.sector
+  module:
+    - entity_reference
+    - path
+    - text
+id: taxonomy_term.sector.default
+targetEntityType: taxonomy_term
+bundle: sector
+mode: default
+content:
+  name:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  description:
+    type: text_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  field_sector_contact:
+    weight: 31
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      autocomplete_type: tags
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+hidden: {  }
+third_party_settings: {  }

@@ -1,0 +1,29 @@
+uuid: 6fe18df6-0fac-472b-bc00-c284c796f262
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.sector.field_sector_contact
+    - taxonomy.vocabulary.sector
+  module:
+    - text
+id: taxonomy_term.sector.default
+targetEntityType: taxonomy_term
+bundle: sector
+mode: default
+content:
+  description:
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    label: hidden
+  field_sector_contact:
+    type: entity_reference_label
+    weight: 1
+    settings:
+      link: true
+    third_party_settings: {  }
+    label: inline
+hidden: {  }
+third_party_settings: {  }

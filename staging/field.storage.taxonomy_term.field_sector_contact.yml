@@ -1,0 +1,19 @@
+uuid: c671dccd-e922-4c8d-9643-677832a1f707
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference
+    - taxonomy
+id: taxonomy_term.field_sector_contact
+field_name: field_sector_contact
+entity_type: taxonomy_term
+type: entity_reference
+settings:
+  target_type: node
+module: entity_reference
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

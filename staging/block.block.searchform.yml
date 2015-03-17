@@ -1,0 +1,23 @@
+uuid: a1612e00-06dc-4185-bb26-383f55330cc6
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - sales_portal
+id: searchform
+theme: sales_portal
+region: navigation
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+  cache:
+    max_age: 0
+    contexts: {  }
+visibility: {  }

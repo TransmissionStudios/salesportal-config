@@ -5,11 +5,13 @@ dependencies:
   config:
     - field.field.node.contact.body
     - field.field.node.contact.field_contact_email
+    - field.field.node.contact.field_contact_image
     - field.field.node.contact.field_contact_job_title
     - field.field.node.contact.field_contact_telephone
     - node.type.contact
   module:
     - entity_reference
+    - image
     - path
     - text
 id: node.contact.default
@@ -84,6 +86,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+  field_contact_image:
+    weight: 35
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
 hidden:
   field_telephone: true
   field_job_title: true

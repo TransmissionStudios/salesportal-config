@@ -1,0 +1,28 @@
+uuid: 5c28ee19-934e-474b-8b00-ac38e7284aac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_sector_contact
+    - taxonomy.vocabulary.sector
+  module:
+    - entity_reference
+id: taxonomy_term.sector.field_sector_contact
+field_name: field_sector_contact
+entity_type: taxonomy_term
+bundle: sector
+label: Contact
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings:
+    target_bundles:
+      contact: contact
+    sort:
+      field: _none
+third_party_settings: {  }
+field_type: entity_reference

@@ -14,6 +14,7 @@ dependencies:
     - node.type.case_study
   module:
     - image
+    - taxonomy
     - text
     - user
 id: node.case_study.teaser
@@ -30,20 +31,31 @@ content:
     third_party_settings: {  }
     label: hidden
   links:
-    weight: 100
+    weight: 1
     settings: {  }
     third_party_settings: {  }
   body:
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 2
     settings:
       trim_length: 100
     third_party_settings: {  }
     label: hidden
+  field_case_study_sectors:
+    type: taxonomy_term_reference_link
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    label: inline
+  field_case_study_technologies:
+    type: entity_reference_label
+    weight: 4
+    settings:
+      link: true
+    third_party_settings: {  }
+    label: inline
 hidden:
   field_case_study_challanges: true
   field_case_study_contact: true
-  field_case_study_technologies: true
-  field_case_study_sectors: true
   field_case_study_strapline: true
 third_party_settings: {  }

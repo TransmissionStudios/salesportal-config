@@ -5,10 +5,12 @@ dependencies:
   config:
     - field.field.node.contact.body
     - field.field.node.contact.field_contact_email
+    - field.field.node.contact.field_contact_image
     - field.field.node.contact.field_contact_job_title
     - field.field.node.contact.field_contact_telephone
     - node.type.contact
   module:
+    - image
     - text
     - user
 id: node.contact.default
@@ -47,6 +49,14 @@ content:
     weight: 4
     settings: {  }
     third_party_settings: {  }
+  field_contact_image:
+    type: image
+    weight: 5
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    label: hidden
 hidden:
   field_telephone: true
   field_job_title: true

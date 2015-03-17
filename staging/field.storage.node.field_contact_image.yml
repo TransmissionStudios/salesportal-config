@@ -1,0 +1,29 @@
+uuid: 922a5f59-2d6d-4201-a500-abbf9b71c9ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - image
+    - node
+id: node.field_contact_image
+field_name: field_contact_image
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+  target_bundle: null
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
